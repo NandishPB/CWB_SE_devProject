@@ -1,13 +1,44 @@
 * {
+    margin: 0;
+    padding:0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: blue;
+body {
+    color: rgb(8, 8, 147);
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+h1{
+    color: #1a3c6e;
     font-size: 36px;
+    line-height: 1.4;
+}
+
+h2{
+    color: #0b3465;
+    font-size: 22px;
+}
+
+h3{
+    color: #1a4f8b;
+    font-size: 18px;
 }
 
 p {
-    font-size: 18px;
+    text-align: justify;
+    font-size: 16px;
     color: gray;
+}
+
+ul, ol{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+li{
+    margin-bottom: 8px;
 }
