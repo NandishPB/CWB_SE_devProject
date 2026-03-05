@@ -1,44 +1,109 @@
 * {
     margin: 0;
     padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    color: rgb(8, 8, 147);
-    font-family: Arial, Helvetica, sans-serif;
-    padding:10px;
-    margin: auto;
-    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1E1E1E;
+    background-color: #f9f7f7;
+    padding:40px;
+}
+
+.container{
+    background-color: #FFFFFF;
+    padding: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 h1{
-    color: #1a3c6e;
-    font-size: 36px;
-    line-height: 1.4;
+    background-color: #ffcc00;
+    font-size: 50pt;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align : center;
 }
 
 h2{
-    color: #0b3465;
-    font-size: 22px;
+    font-size: 38pt;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border: 6px solid #ffcc00;
+    text-align: center;
 }
 
 h3{
-    color: #1a4f8b;
-    font-size: 18px;
+    font-size: 26pt;
+    margin-top:25px;
+    margin-bottom: 10px;
+    padding-left : 5px;
+    border-left: 6px solid 
+    #ffcc00;
+    
 }
 
 p {
-    text-align: justify;
-    font-size: 16px;
-    color: gray;
+    font-size: 18pt;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
 }
 
 ul, ol{
-    margin-left: 20px;
-    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    font-size: 18pt;
 }
 
 li{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
+
+.footer-note{
+    background-color: #1e1e1e;
+    padding: 5px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.card1{
+    background-color: #f5f1f1;
+    padding : 10px;
+    margin-top : 20px;
+    margin-bottom: 5px;
+    box-shadow:   0 4px 5px rgba(0,0,0,0.1);
+}
+
+.card2{
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 36pt;
+        padding: 20px;
+    }
+
+    h2{
+        font-size: 24pt;
+    }
+
+    h3{
+        font-size: 20pt;
+    }
+
+    p,li{
+        font-size: 14pt;
+    }
+
+    body{
+        padding:0px;
+    }
+}
+
+
+
+  
